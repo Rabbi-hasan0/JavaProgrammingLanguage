@@ -1,0 +1,55 @@
+
+
+There are 4 type of inheritance in OOP:
+      1. Single Inheritance.
+      2. Multilevel Inheritance.
+      3. Hierarchical Inheritance.
+      4. Multiple Inheritance.
+
+ 1. Single Inheritance:
+      -> Only One subclass and Only one superclass. Kind of One father One child.
+       # code:
+---------------------------------------------
+        public class A{
+        }
+        public class B extends A{
+        }
+----------------------------------------------
+
+
+2. Multilevel Inheritance:
+      -> One superclass can be other class subclass. Kind of Adjusting family.
+       # code:
+---------------------------------------------
+        public class A{
+        }
+        public class B extends A {
+        }
+        ........
+        ........
+        ........
+        public class Y extends X {
+        }
+----------------------------------------------
+
+
+3. Multilevel Inheritance:
+      -> Multi subclass drived single superclass. Kind of One father and his have many child.
+       # code:
+---------------------------------------------
+        public class A{
+        }
+        public class B extends A {
+        }
+        ........
+        ........
+        ........
+        public class Z extends A {
+        }
+----------------------------------------------
+
+4. Multiple Inheritance:
+   -> Multiple inheritance didn't support in java. Thats why we use interface.
+
+
+
